@@ -1,0 +1,107 @@
+* {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+.background--container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("./assets/blueDrone.jpg");
+  background-size: cover;
+  background-position: left center;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo a {
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+  margin-left: 8px;
+}
+
+.logo::first-letter {
+  color: black; /* This targets the first letter of the logo */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.center--nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Adjusted for centering */
+  flex: 1;
+}
+
+.move--center li a {
+  color: #000000;
+  margin-right: 20px; /* Added margin between links */
+}
+
+.move--center {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Added gap between items */
+}
+
+.nav-links li {
+  list-style: none;
+  margin-right: 18px;
+}
+
+.btn {
+  width: 130px;
+  height: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.middle--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  max-width: 700px; /* Limit container width */
+  height: auto; /* Allow height to adjust */
+}
+
+.title {
+  font-size: 64px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.title--text {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .move--center {
+    justify-content: center; /* Center align items */
+    margin-right: 0; /* Remove excessive margin */
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+
+  .middle--container {
+    padding: 0 20px; /* Adjust padding */
+  }
+}
