@@ -1,7 +1,7 @@
 
 .header__table{
     display: flex;
-    gap: 5px;
+    gap: 2px;
     align-content: center;
 }
 .header__table , .header__content{
@@ -28,7 +28,7 @@
 .header__table {
     display: flex;
     justify-content: center; 
-    flex-wrap: wrap; 
+   
 }
 
 .card__content {
@@ -47,8 +47,8 @@
 }
 
 .card__container {
-    padding: 15px; 
-}
+     padding: 15px; 
+} 
 .last__section{
     display: flex;
   
@@ -66,6 +66,11 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 19.36px;
+    
+    height: auto;
+    margin-top: 50px;
+    margin-right: 80px;
+    
   
 
  }
@@ -74,9 +79,11 @@
     align-content: center;
     position: relative;
     display: inline-block;
+  
 }
 .section__content {
     text-align: center; 
+
   }
   
   h3 {
@@ -129,10 +136,11 @@
   }
 .last__section{
     background-color: white;
+   
 }
 .last__section , .section__image ,.last__section__image{
-    width:700px;
-    height:500px;
+    width:900px;
+    height:600px;
   }
   h3{
     font-size: 2rem;
@@ -149,28 +157,27 @@
     background-color: #000;
   }
 
-.last__section , .section__image ,.last__section__image{
-    width:920px;
-    height:600px;
+.last__section ,.last__section__image{
+   
+    background-size: cover;
 }
 .last__section .section__content{
    
     align-items: center;
 }
-.content__section{
+/* .content__section{
    
     width: 700px;
     height: 300px;
-    margin-left: 30px;
-    margin: 80px;
+   
     
-}
+} */
 .content__section {
     text-align: justify;
     line-height: 1.5rem;
-    display:block;
     
-}
+    
+} */
 .header1 , .text__input{
     align-items: center;
     align-content: center;
@@ -186,6 +193,9 @@
 .last__section__header{
     margin: 20px;
     padding: 20px;
+    align-content: center;
+    text-align: center;
+   
 }
 /* .sites {
     display: flex; 
@@ -202,7 +212,6 @@ footer{
 /* content__section */
 .middle__container {
     text-decoration: none;
-    
     align-content: center;
 }
 .site ,.ax{
@@ -228,41 +237,28 @@ input.input__text textarea{
     
 }
 .button{
-
-    
     width: 150px;
     height: 30px;
-
-}
+   }
 .input__text{
     background-color: rgb(255, 255, 255);
    
 }
 footer {
     display: flex;
-    justify-content: space-between; 
     align-items: center;
     align-content: center;
-    padding: 30px;
-    
-  
-  }
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap; 
   }
   
   .sites {
     display: flex;
-    gap: 5px;
+    gap: 8px;
+    margin-left: 80px;
   }
   
   .site {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     text-align: center;
     background-color: #CBDEEC;
@@ -271,12 +267,7 @@ footer {
     align-items: center;
   }
   
-  .site:hover{
-    background-color: blue;
-    width: 25px;
-    height: 25px;
-
-  }
+  
   .sites {
     display: flex;
   
@@ -284,24 +275,34 @@ footer {
   
   .site {
     margin-right: 5px;
+    filter: blur(2px);
+    -webkit-filter: blur(px);
+  }
+  .site:hover{
+    
+    border: 6px solid blue;
   }
   /* sites */
   .section__middle {
     flex-grow: 1; 
     text-align: center; 
+    margin-left: 1200px;
+  }
+  .footer__btn{
+    margin-left: 100px;
   }
   
-  .middle__container {
-    display: inline-block;
+  /* .middle__container {
+    display: flex;
   }
-  
+   */
   ul {
     list-style-type: none;
     padding: 0;
   }
   
   ul li {
-    display: inline-block;
+    display: inline-block; 
     margin: 0 10px;
   }
   
@@ -314,21 +315,30 @@ footer {
   }
   
   .button__container{
-    margin-left:1500px;
+    margin-left:600px;
+    
+    
   }
-  .section__middle .button__container{
+ .button__container{
+  
+    margin-right: 10px;
+  }
+
+  .sites .site .section__middle .button__container{
    display:flex;
    
    
   }
 
   .footer__btn{
-    width: 130px;
-    height: 30px;
+    width: 100px;
+    height: 25px;
     background-color: transparent;
+    cursor: pointer;
   }
   
-  @media (max-width: 768px) {
+  
+  /* @media (max-width: 768px) {
     .header__table .header__content {
       flex: 1 1 100%;
     }
@@ -351,4 +361,4 @@ footer {
       margin-top: 10px;
     }
   }
-  
+   */

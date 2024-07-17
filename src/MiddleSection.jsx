@@ -25,13 +25,13 @@ return (
             </div>
         </div>
         <div className="card__content">
-            <img  src={img3} alt="Article 3 Image" />
+            <img  src={img4} alt="Article 3 Image" />
             <div className="card__container">
             <p>improving lives through artificial prospects</p>
             </div>
         </div>
         <div className="card__content">
-            <img  src={img4} alt="Article 4 Image" />
+            <img  src={img3} alt="Article 4 Image" />
             <div className="card__container">
         <p>power of robotics in agriculture</p>
         </div>
@@ -48,18 +48,18 @@ return (
 <div className="section__image">
     </div>
    <div className="section___content">
-    <br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/>
         <h3>ABOUT US</h3>
         <br/>
         <div className="content__section ">
-            <p>Wecome to our dronoticz , where innovation and technology converge to to shape the 
+            <p>Wecome to our dronoticz ,where innovation and technology converge to to shape the 
              future. We revolutionize industries and improve lives worldwide
                through our passion for pushing the boundaries of what robots can do. With 
-               expertise in AI, computer visison , mechanical engineering , and automation, We
+               expertise in AI ,computer visison, mechanical engineering , and automation, We
                lead the way in robotics revolution. Our brilliant team creates intelligent
-               machines that seanlessly integgrate into daily life, enhancing productivity ,
+               machines that seanlessly integgrate into daily life, enhancing productivity,
                safety, and efficiency.Join us on this exciting journey as we unlock new 
-               frontiers,solve complex challenges, and shape a future where intelligent
+               frontiers,solve complex challenges,and shape a future where intelligent
                machines work hand-in-hand with humans. Discover the power of robotics 
                and be part of the revolution.
                </p>

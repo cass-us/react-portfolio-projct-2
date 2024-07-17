@@ -1,8 +1,7 @@
-import './BackgroundComponent.css'; // CSS file
-import "@fontsource/inter"; // Defaults to weight 400
-import "@fontsource/inter/400.css"; // Specify weight
-// import "@fontsource/inter/400-italic.css"; // Specify weight and style
-
+import './BackgroundComponent.css';
+import "@fontsource/inter"; 
+import "@fontsource/inter/400.css"; 
+// import "@fontsource/inter/400-italic.css"; 
 const BackgroundComponent = () => {
   return (
     <div className="background--container">

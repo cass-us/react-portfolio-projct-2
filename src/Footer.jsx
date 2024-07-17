@@ -17,21 +17,17 @@ return (
   </div>
 </div>
 <div className="section__middle">
-    <div className="middle__container">
-        <ul>
+   <ul className="footer__under">
+        <div className="middle__container">
             <li><a href="">ARTICLE</a></li>
-            <li><a href="">ABOUT -US</a></li>
-        
-        <div className="button__container">
-           <button className="footer__btn">SUBSCRIBE</button>
-        
-     
-      </div>
-      </ul>
-    </div>
+            <li><a href="">ABOUT-US</a></li>
+            <button className="footer__btn">SUBSCRIBE</button>
+         </div>
+       </ul>
+  </div>
    
   
-</div>
+
 </footer>
 );
 
