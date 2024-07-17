@@ -9,29 +9,34 @@ return (
          <div className="sub__header">
     <div className="sub__header__">
         <h2 className="latest">LATEST ARTICLES</h2>
-        <br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/>
     </div>
     <div className="header__table">
         <div className="card__content">
-           <img src={img1} alt="Article 1 Image" />
-           <div className="card__container">
+           <img  src={img1} alt="Article 1 Image" />
+           <p className="card__p"> </p>
+          <div className="card__container"> <br/>
             <p>How to automate surveillance drone</p>
         </div>
         </div>
+        
         <div className="card__content">
             <img  src={img2} alt="Article 2 Image"/>
+            <p className="card__p"> </p><br/>
             <div className="card__container">
             <p>Robotics and Artificial intelligence</p>
             </div>
         </div>
         <div className="card__content">
             <img  src={img4} alt="Article 3 Image" />
+            <p className="card__p"> </p><br/>
             <div className="card__container">
             <p>improving lives through artificial prospects</p>
             </div>
         </div>
         <div className="card__content">
-            <img  src={img3} alt="Article 4 Image" />
+            <img   src={img3} alt="Article 4 Image" />
+            <p className="card__p"> </p><br/>
             <div className="card__container">
         <p>power of robotics in agriculture</p>
         </div>
